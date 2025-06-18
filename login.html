@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign In</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #0e1a2b;
+      color: white;
+      display: flex;
+      min-height: 100vh;
+    }
+    .left-panel {
+      flex: 1;
+      background: url('your-background.jpg') no-repeat center center/cover;
+      padding: 3rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .left-panel .feature {
+      background: #1b2b42;
+      padding: 1rem 1.5rem;
+      margin-bottom: 1rem;
+      border-radius: 10px;
+    }
+    .left-panel .feature h4 {
+      margin: 0;
+      color: #ffffff;
+    }
+    .left-panel .feature p {
+      color: #cbd5e1;
+      font-size: 0.95rem;
+    }
+    .left-panel h2 {
+      margin-top: 2rem;
+      font-size: 1.5rem;
+    }
+    .form-container {
+      flex: 1;
+      background-color: #101e33;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 3rem;
+    }
+    form {
+      background-color: #1c2d45;
+      padding: 2rem;
+      border-radius: 12px;
+      width: 100%;
+      max-width: 400px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    h2 {
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+    label {
+      font-weight: 600;
+      margin-top: 1rem;
+      display: block;
+    }
+    input, button {
+      width: 100%;
+      padding: 0.75rem;
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+      border: none;
+      font-size: 1rem;
+    }
+    input {
+      background-color: #2c3e59;
+      color: white;
+    }
+    button {
+      background-color: #2a7de1;
+      color: white;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover {
+      background-color: #1f5bb5;
+    }
+    .checkbox-group {
+      font-size: 0.85rem;
+      margin: 0.5rem 0;
+    }
+    .checkbox-group input {
+      width: auto;
+      margin-right: 0.5rem;
+    }
+    .bottom-text {
+      text-align: center;
+      margin-top: 1rem;
+      font-size: 0.9rem;
+    }
+    .bottom-text a {
+      color: #4fa3ff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="left-panel">
+    <div class="feature">
+      <h4>🔒 Secure Login</h4>
+      <p>Your credentials are encrypted and safe</p>
+    </div>
+    <div class="feature">
+      <h4>📊 Real-Time Access</h4>
+      <p>Instant access to your live trading account</p>
+    </div>
+    <div class="feature">
+      <h4>🚀 Lightning Execution</h4>
+      <p>Experience fast and reliable order placement</p>
+    </div>
+    <h2>Access Your Account Anytime</h2>
+  </div>
+
+  <div class="form-container">
+    <form>
+      <h2>Sign In</h2>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" required />
+
+      <label for="password">Password</label>
+      <input type="password" id="password" required />
+
+      <div class="checkbox-group">
+        <label><input type="checkbox" /> Remember Me</label>
+      </div>
+
+      <button type="submit">Sign In</button>
+
+      <div class="bottom-text">
+        <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+        <p><a href="#">Forgot your password?</a></p>
+      </div>
+    </form>
+  </div>
+
+</body>
+</html>

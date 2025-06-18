@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Career Opportunities in Trading</title>
+  <style>
+    /* Reset */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #fff;
+      color: #222;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header, footer {
+      background-color: #000;
+      color: #fff;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-weight: 700;
+      font-size: 1.8rem;
+      color: #18d26e;
+      letter-spacing: 1px;
+    }
+
+    main {
+      flex: 1;
+      padding: 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .intro {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .intro h2 {
+      color: #18d26e;
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .intro p {
+      font-size: 1.1rem;
+      color: #555;
+    }
+
+    .opportunities {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      border: 2px solid #18d26e;
+      border-radius: 8px;
+      padding: 1.5rem;
+      transition: box-shadow 0.3s ease;
+      background-color: #f9fff9;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .card:hover {
+      box-shadow: 0 4px 15px rgba(24, 210, 110, 0.4);
+    }
+
+    .card h3 {
+      color: #18d26e;
+      margin-bottom: 1rem;
+      font-size: 1.4rem;
+    }
+
+    .card p {
+      flex-grow: 1;
+      font-size: 1rem;
+      color: #333;
+      margin-bottom: 1rem;
+    }
+
+    .card button {
+      background-color: #18d26e;
+      color: #fff;
+      border: none;
+      padding: 0.6rem 1.2rem;
+      border-radius: 5px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      align-self: flex-start;
+    }
+
+    .card button:hover {
+      background-color: #129a53;
+    }
+
+    /* Responsive typography */
+    @media (max-width: 480px) {
+      header h1 {
+        font-size: 1.5rem;
+      }
+
+      .intro h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Career Opportunities in Trading</h1>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Explore Your Future in Trading</h2>
+      <p>Discover dynamic roles in the world of trading where your skills and passion can thrive. Join an exciting industry that values innovation, agility, and strategic thinking.</p>
+    </section>
+
+    <section class="opportunities" aria-label="List of trading career opportunities">
+      <article class="card">
+        <h3>Equity Trader</h3>
+        <p>Buy and sell stocks on behalf of clients or institutions, using market analysis to maximize returns and minimize risks.</p>
+        <button type="button">Apply Now</button>
+      </article>
+
+      <article class="card">
+        <h3>Quantitative Analyst</h3>
+        <p>Develop complex mathematical models to analyze market data and support trading strategies.</p>
+        <button type="button">Apply Now</button>
+      </article>
+
+      <article class="card">
+        <h3>Risk Manager</h3>
+        <p>Identify, assess, and mitigate financial risks associated with trading activities to protect assets and ensure compliance.</p>
+        <button type="button">Apply Now</button>
+      </article>
+
+      <article class="card">
+        <h3>Trading Operations Specialist</h3>
+        <p>Coordinate and streamline the post-trade process to ensure efficient settlement and regulatory compliance.</p>
+        <button type="button">Apply Now</button>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Trading Careers Inc. All rights reserved.
+  </footer>
+</body>
+</html>

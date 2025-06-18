@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pro Account - DAD Capitals</title>
+  <link rel="stylesheet" href="assets/css/standard.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #111;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 3rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .account-header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .price {
+      font-size: 2.5rem;
+      color: #00c853;
+      margin-top: 0.5rem;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin: 0.75rem 0;
+      padding-left: 25px;
+      position: relative;
+    }
+
+    li::before {
+      content: '✔';
+      position: absolute;
+      left: 0;
+      color: #00c853;
+    }
+
+    .disabled::before {
+      content: '✖';
+      color: #ccc;
+    }
+
+    .disabled {
+      color: #999;
+    }
+
+    .cta-button {
+      display: block;
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .cta-button a {
+      background: #00c853;
+      color: white;
+      padding: 0.75rem 2rem;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    .cta-button a:hover {
+      background: #009624;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo"><strong>DAD</strong> Capitals</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="accounts.html">Accounts</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="account-header">
+      <h1>Pro Account</h1>
+      <div class="price">$1,000</div>
+    </div>
+    <ul>
+      <li>Minimum Investment: $1,000</li>
+      <li>Leverage: Up to 1:1000</li>
+      <li>Spread: From 0.3 pips</li>
+      <li>Commission: Low fixed commission per trade</li>
+      <li>Account Currency: USD</li>
+      <li>Trading Instruments: Full range access including advanced assets</li>
+      <li>Account Manager</li>
+      <li>Market Updates</li>
+    </ul>
+    <div class="cta-button">
+      <a href="#">Open Pro Account</a>
+    </div>
+  </div>
+
+</body>
+</html>
